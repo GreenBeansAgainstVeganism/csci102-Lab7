@@ -10,7 +10,7 @@
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Fish Creek Animal Clinic | Services</title>
+    <title>Fish Creek Animal Clinic | Contact</title>
 </head>
 
 <body>
@@ -30,28 +30,17 @@
             </ul>
         </nav>
         <main>
-            <table>
-                <tr>
-                    <th class="category">Medical Services</th>
-                    <td>We offer state-of-the-art equipment and technology.</td>
-                </tr>
-                <tr>
-                    <th class="category">Surgical Services</th>
-                    <td>Full range of surgical procedures including orthopedics and emergency surguries.</td>
-                </tr>
-                <tr>
-                    <th class="category">Dental Care</th>
-                    <td>A dental exam can determine whether your pet needs preventative dental care such as scaling and polishing.</td>
-                </tr>
-                <tr>
-                    <th class="category">House Calls</th>
-                    <td>The elderly, physically challenged, and multiple pet households often find our in-home veterinary service helpful and convenient.</td>
-                </tr>
-                <tr>
-                    <th class="category">Emergencies</th>
-                    <td>At least one of our doctors is on call every day and night.</td>
-                </tr>
-            </table>
+            <h2>Contact Fish Creek</h2>
+            <p>Required information is marked with an asterisk (*)</p>
+            <form action="http://webdevbasics.net/scripts/fishcreek.php" method="post">
+                <label for="myName">* Name:</label>
+                <input type="text" name="myName" id="myName" required>
+                <label for="myEmail">* E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail" required>
+                <label for="myComments">* Comments:</label>
+                <textarea name="myComments" id="myComments" cols="20" rows="2" required></textarea>
+                <input type="submit" value="Send Now" id="mySubmit">
+            </form> 
         </main>
         <footer>
             Copyright &copy; 2018 Fish Creek Animal Clinic <br>

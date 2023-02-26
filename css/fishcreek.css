@@ -94,6 +94,34 @@ img {
     border: none;
 }
 
+table {
+    margin: 1em;
+    border: 2px solid darkblue;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 1px solid darkblue;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
 main {
     padding-right: 20px;
     padding-bottom: 20px;
